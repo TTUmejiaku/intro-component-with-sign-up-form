@@ -1,0 +1,22 @@
+@use "../abstracts/functions" as f;
+@use "../globals/variables" as v;
+
+.form__btn {
+  padding: f.rem(21);
+  width: 100%;
+  margin-bottom: f.rem(16);
+  border-radius: f.rem(8);
+  background: v.$pri__green;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #fff;
+  font-size: f.rem(16);
+  border-bottom: 5px solid hsla(155, 24%, 31%, 0.285);
+  cursor: pointer;
+  position: relative;
+  transition: background 300ms ease-in-out;
+
+  &:hover {
+    background: hsla(154, 59%, 51%, 0.656);
+  }
+}

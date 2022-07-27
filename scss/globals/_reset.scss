@@ -1,0 +1,32 @@
+@use "./variables" as v;
+
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  font-family: v.$ff;
+  font-size: v.$fs;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  border: none;
+}
+
+ul {
+  padding: 0;
+}

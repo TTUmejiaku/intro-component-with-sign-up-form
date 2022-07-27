@@ -1,0 +1,14 @@
+@use "../abstracts/functions" as f;
+@use "../globals/variables" as v;
+@use "../abstracts/breakpoints" as b;
+
+footer {
+  margin-top: f.rem(16);
+}
+.attribution {
+  font-size: 12px;
+  text-align: center;
+}
+.attribution a {
+  color: v.$pri__red;
+}
